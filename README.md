@@ -1,4 +1,4 @@
-This project works from Google Platform using OAuth to connect to different users' Calendars. The details for setting up OAuth, and obtaining the secrets key are not included here.  
+This project works from Google Platform using OAuth to connect to different users' Calendars. The details for setting up OAuth, and obtaining the secrets key are not included here. However, once those tasks have been completed, the generate_token.py will be useful. Please also look at the .env.example file to use as the basis for your own .env file where you can add you specific settings. 
 
 The main python script (run_poller.py) does not use a UI, at the moment it sends lots of output info to the terminal. The script polls the calendars looking for meetings that need flights to be booked for the meeting. It assumes that the origin office is in London, and then proceeds to book a return flight, one-way taxi and a hotel. 
 
